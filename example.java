@@ -1,5 +1,6 @@
 public class Mystery {
     public static int mystery1(int n) {
+        System.out.println("Test");
         if (n <= 0) {
             throw new IllegalArgumentException("Input should be a positive integer.");
         }
